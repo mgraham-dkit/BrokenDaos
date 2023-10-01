@@ -1,0 +1,63 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/princ/.m2/repository/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar;C:/Users/princ/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'18'
+-sourcepath
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'DaoComparison 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'DaoComparison 1.0-SNAPSHOT API'
+business
+daos
+withDao
+withoutDao
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/business/Order.java'
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/business/OrderDetail.java'
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/business/Product.java'
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/daos/Dao.java'
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/daos/OrderDetailDao.java'
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/daos/OrderDetailDaoInterface.java'
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/daos/ProductDao.java'
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/daos/ProductDaoInterface.java'
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/withDao/ExampleOneWithDao.java'
+'C:/Users/princ/Dropbox/College/2022-2023/Semester 1/Web Patterns/Examples/Databases (Updated)/With DAOs/DaoComparison/src/main/java/withoutDao/ExampleOne.java'
+C:\Users\princ\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar = 1663106283173
+C:\Users\princ\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar = 1663106283292
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\src\main\java = 1664413596606
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\allclasses-index.html = 1664874996459
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\allpackages-index.html = 1664874996465
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\copy.svg = 1664874996535
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\element-list = 1664874996232
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\help-doc.html = 1664874996519
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\index-all.html = 1664874996506
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\index.html = 1664874996431
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\jquery-ui.overrides.css = 1664874996584
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\member-search-index.js = 1664874996475
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\module-search-index.js = 1664874996467
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\overview-summary.html = 1664874996511
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\overview-tree.html = 1664874996422
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\package-search-index.js = 1664874996470
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\script.js = 1664874996531
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\search.js = 1664874996539
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\serialized-form.html = 1664874996322
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\stylesheet.css = 1664874996527
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\tag-search-index.js = 1664874996478
+C:\Users\princ\Dropbox\College\2022-2023\Semester 1\Web Patterns\Examples\Databases (Updated)\With DAOs\DaoComparison\target\site\apidocs\type-search-index.js = 1664874996472
