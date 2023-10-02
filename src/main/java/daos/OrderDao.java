@@ -5,6 +5,7 @@ import business.Order;
 
 import java.sql.*;
 import java.time.LocalDate;
+import java.time.Month;
 import java.util.ArrayList;
 import java.util.List;
 // THIS CLASS CONTAINS MULTIPLE SYNTAX ERRORS!
@@ -153,5 +154,42 @@ public class OrderDao implements OrderDaoInterface {
         }
 
         return added;
+    }
+
+    public static void main(String[] args) {
+        OrderDao dao = new OrderDao("classicmodels");
+        List<Order> orders = dao.getAllOrders();
+        for(Order o: orders){
+            System.out.println(o);
+        }
+
+        Order order = dao.getOrderById(10100);
+        System.out.println("Located order: " + order);
+
+        order = dao.getOrderById(101090);
+        System.out.println("Located non-existent order: " + order);
+
+        List<Order> custOrders = dao.getCustomerOrders(124);
+        for(Order o: custOrders){
+            System.out.println(o);
+        }
+
+        int orderNum = 10426;
+        LocalDate orderDate = LocalDate.of(2023, Month.SEPTEMBER, 24);
+        LocalDate requiredDate = LocalDate.of(2023, Month.OCTOBER, 10);
+        LocalDate shippedDate = null;
+        String status = "In Process";
+        String comments = null;
+        int custNum = 141;
+        Order newOrder = new Order(orderNum, orderDate, requiredDate, shippedDate, status, comments, custNum);
+        boolean added = dao.addOrder(newOrder);
+        if(added){
+            System.out.println("Order was added");}
+        else{
+            System.out.println("Order could not be added");
+        }
+
+        Order addedOrder = dao.getOrderById(orderNum);
+        System.out.println("Added order: " + addedOrder);
     }
 }
