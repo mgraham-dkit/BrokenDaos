@@ -20,7 +20,7 @@ public class OrderDetailDaoTest {
     {
         System.out.println("getProductOrders");
         String prodCode = "S12_4473";
-        OrderDetailDao instance = new OrderDetailDao("testDatabase");
+        OrderDetailDaoImpl instance = new OrderDetailDaoImpl("testDatabase");
         
         List<OrderDetail> expResult = new ArrayList();
         // (10100,'S12_4473',50,55.09,2),

@@ -1,8 +1,8 @@
 package app;
 
-import daos.ProductDao;
+import daos.ProductDaoImpl;
 import business.Product;
-import daos.ProductDaoInterface;
+import daos.ProductDao;
 import java.util.List;
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class WorkingWithProducts {
         
         Scanner input = new Scanner(System.in);
         
-        ProductDaoInterface prodDao = new ProductDao("classicmodels");
+        ProductDao prodDao = new ProductDaoImpl("classicmodels");
         List<Product> products = prodDao.getAllProducts();
         
         for(Product p : products){

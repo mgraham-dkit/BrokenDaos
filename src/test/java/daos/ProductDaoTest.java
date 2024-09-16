@@ -20,7 +20,7 @@ public class ProductDaoTest {
      */
     @Test
     public void testGetAllProducts() {
-        ProductDao prodDao = new ProductDao("testDatabase");
+        ProductDaoImpl prodDao = new ProductDaoImpl("testDatabase");
         Product p1 = new Product("S12_4473", "1957 Chevy Pickup", "Trucks and Buses", "1:12", "Exoto Designs", "1:12 scale die-cast", 6125, 55.7, 118.5);
         Product p2 = new Product("S18_3140", "1903 Ford Model A", "Vintage Cars", "1:18", "Unimax Art Galleries", "Features opening trunk", 3913, 68.3, 136.59);
         Product p3 = new Product("S18_4522", "1904 Buick Runabout", "Vintage Cars", "1:18", "Exoto Designs", "Features opening trunk", 8290, 52.66, 87.77);
@@ -40,7 +40,7 @@ public class ProductDaoTest {
      */
     @Test
     public void testGetProductByCodeWhereNotPresent() {
-        ProductDao prodDao = new ProductDao("testDatabase");
+        ProductDaoImpl prodDao = new ProductDaoImpl("testDatabase");
         String code = "";
         Product expResult = null;
         Product result = prodDao.getProductByCode(code);
@@ -53,7 +53,7 @@ public class ProductDaoTest {
      */
     @Test
     public void testGetProductByCode() {
-        ProductDao prodDao = new ProductDao("testDatabase");
+        ProductDaoImpl prodDao = new ProductDaoImpl("testDatabase");
         String code = "S18_3140";
         // Make a Product that matches the Product in the database
         Product expResult = new Product("S18_3140", "1903 Ford Model A", "Vintage Cars", "1:18", "Unimax Art Galleries", "Features opening trunk", 3913, 68.3, 136.59);
@@ -68,7 +68,7 @@ public class ProductDaoTest {
      */
     @Test
     public void testGetProductsWithGreaterQuantity() {
-        ProductDao prodDao = new ProductDao("testDatabase");
+        ProductDaoImpl prodDao = new ProductDaoImpl("testDatabase");
         System.out.println("getProductsWithGreaterQuantity");
         int quantity = 6000;
         int numGreaterThanQuantity = 2;
@@ -81,7 +81,7 @@ public class ProductDaoTest {
      */
     @Test
     public void testUpdateProductName() {
-        ProductDao prodDao = new ProductDao("testDatabase");
+        ProductDaoImpl prodDao = new ProductDaoImpl("testDatabase");
         String productCode = "S18_3140";
         String newProductName = "Tester";
 
